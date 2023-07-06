@@ -1,0 +1,43 @@
+@media screen and (min-width:650px){
+    nav span{
+        display: none;
+    }
+    span#gaveta{
+        display: none;
+    }
+    menu{
+        display: inline;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        height: 60px;
+        position: relative;
+    }
+    menu > ul > li{
+        display:inline-block;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+
+    }
+    menu a:hover{
+        color: white;
+    }
+    menu ul li:hover{
+       
+        background-color: #5959ff;
+    }
+    section.Vgeral{
+        display: block;
+        max-width: 470px;
+        height: 300px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    section.Vgeral iframe{
+        margin-top: 0px;
+        width: 100%;
+        height:100%;
+    }
+
+}
